@@ -1,0 +1,26 @@
+{
+  "name": "patient",
+  "base": "PersistedModel",
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "idcard": {
+      "type": "string"
+    },
+    "ssc": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "mobilephone": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

@@ -1,0 +1,30 @@
+{
+  "name": "test-parameter",
+  "base": "PersistedModel",
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "string",
+      "required": true
+    },
+    "unit": {
+      "type": "string",
+      "required": true
+    },
+    "upperLimit": {
+      "type": "number",
+      "required": true
+    },
+    "lowerLimit": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

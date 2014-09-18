@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "patient": {
+    "dataSource": "db",
+    "public": true
+  },
+  "doctor": {
+    "dataSource": "db",
+    "public": true
+  },
+  "chemist": {
+    "dataSource": "db",
+    "public": true
+  },
+  "collector": {
+    "dataSource": "db",
+    "public": true
+  },
+  "test-project": {
+    "dataSource": "db",
+    "public": true
+  },
+  "test-parameter": {
+    "dataSource": "db",
+    "public": true
+  },
+  "task": {
+    "dataSource": "db",
+    "public": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "task",
+  "base": "PersistedModel",
+  "properties": {
+    "serialNumber": {
+      "type": "string",
+      "required": true
+    },
+    "cost": {
+      "type": "number",
+      "required": true
+    },
+    "patientId": {
+      "type": "string",
+      "required": true
+    },
+    "testProjectId": {
+      "type": "string",
+      "required": true
+    },
+    "createdAt": {
+      "type": "date",
+      "required": true
+    },
+    "memo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "patient": {
+      "type": "belongsTo",
+      "model": "patient",
+      "foreignKey": "patientId"
+    },
+    "testProject": {
+      "type": "belongsTo",
+      "model": "test-project",
+      "foreignKey": "testProjectId"
+    }
+  },
+  "acls": [],
+  "methods": []
+}
