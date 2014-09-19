@@ -10,9 +10,10 @@
     "errorhandler": "^1.1.1",
     "loopback": "^2.0.0",
     "loopback-boot": "^2.0.0",
+    "loopback-connector-mongodb": "^1.4.4",
     "loopback-datasource-juggler": "^2.7.0",
-    "serve-favicon": "^2.0.1",
-    "loopback-explorer": "^1.1.0"
+    "loopback-explorer": "^1.1.0",
+    "serve-favicon": "^2.0.1"
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
@@ -24,5 +25,13 @@
     "Heath"
   ],
   "author": "extensivepro",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudheath/cloudheath.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudheath/cloudheath/issues"
+  },
+  "homepage": "https://github.com/cloudheath/cloudheath"
 }
