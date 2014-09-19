@@ -19,7 +19,11 @@
     "loopback-explorer": "^1.1.0"
   },
   "description": "Cloud Heath Service",
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-loopback-sdk-angular": "^0.1.1",
+    "gulp-rename": "^1.2.0"
+  },
   "keywords": [
     "Cloud",
     "Heath"
