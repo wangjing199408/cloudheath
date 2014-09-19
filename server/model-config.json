@@ -40,15 +40,15 @@
     "dataSource": "db",
     "public": true
   },
-  "test-project": {
-    "dataSource": "db",
-    "public": true
-  },
-  "test-parameter": {
-    "dataSource": "db",
-    "public": true
-  },
   "task": {
+    "dataSource": "db",
+    "public": true
+  },
+  "project": {
+    "dataSource": "db",
+    "public": true
+  },
+  "parameter": {
     "dataSource": "db",
     "public": true
   }

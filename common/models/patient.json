@@ -1,6 +1,6 @@
 {
   "name": "patient",
-  "base": "PersistedModel",
+  "base": "User",
   "properties": {
     "name": {
       "type": "string",

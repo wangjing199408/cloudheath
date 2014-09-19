@@ -14,13 +14,19 @@
       "type": "string",
       "required": true
     },
-    "testProjectId": {
+    "doctorId": {
       "type": "string",
       "required": true
     },
-    "createdAt": {
-      "type": "date",
+    "projectId": {
+      "type": "string",
       "required": true
+    },
+    "created": {
+      "type": "date"
+    },
+    "status": {
+      "type": "string"
     },
     "memo": {
       "type": "string"
@@ -33,10 +39,15 @@
       "model": "patient",
       "foreignKey": "patientId"
     },
-    "testProject": {
+    "doctor": {
       "type": "belongsTo",
-      "model": "test-project",
-      "foreignKey": "testProjectId"
+      "model": "User",
+      "foreignKey": "doctorId"
+    },
+    "project": {
+      "type": "belongsTo",
+      "model": "project",
+      "foreignKey": "projectId"
     }
   },
   "acls": [],
