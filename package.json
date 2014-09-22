@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "main": "server/server.js",
   "scripts": {
-    "pretest": "jshint ."
+    "pretest": "jshint .",
+    "start": "node server/server.js",
+    "snapdb": "sh server/test/fixtures/database.sh snap",
+    "restoredb": "sh server/test/fixtures/database.sh"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -18,15 +21,16 @@
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
   },
-  "description": "Cloud Heath Service",
+  "description": "Cloud Health Service",
   "devDependencies": {
     "gulp": "^3.8.8",
     "gulp-loopback-sdk-angular": "^0.1.1",
-    "gulp-rename": "^1.2.0"
+    "gulp-rename": "^1.2.0",
+    "loopback-testing": "^0.2.0"
   },
   "keywords": [
     "Cloud",
-    "Heath"
+    "Health"
   ],
   "author": "extensivepro",
   "license": "ISC",
