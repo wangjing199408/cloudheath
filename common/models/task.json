@@ -18,6 +18,14 @@
       "type": "string",
       "required": true
     },
+    "collectorId": {
+      "type": "string",
+      "required": false
+    },
+    "chemistId": {
+      "type": "string",
+      "required": false
+    },
     "projectId": {
       "type": "string",
       "required": true
@@ -43,6 +51,16 @@
       "type": "belongsTo",
       "model": "User",
       "foreignKey": "doctorId"
+    },
+    "collector": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": "collectorId"
+    },
+    "chemist": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": "chemistId"
     },
     "project": {
       "type": "belongsTo",

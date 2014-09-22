@@ -20,7 +20,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "tasks": {
+      "type": "hasMany",
+      "model": "task",
+      "foreignKey": "patientId"
+    }
+  },
   "acls": [],
   "methods": []
 }
