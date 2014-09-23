@@ -27,6 +27,19 @@
       "foreignKey": "patientId"
     }
   },
-  "acls": [],
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "collector",
+      "permission": "ALLOW",
+      "accessType": "READ"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "chemist",
+      "permission": "ALLOW",
+      "accessType": "READ"
+    }
+  ],
   "methods": []
 }

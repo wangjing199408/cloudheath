@@ -1,7 +1,7 @@
 {
   "db": {
+    "database": "cloudheath",
     "name": "db",
-    "connector": "mongodb",
-    "database": "cloudheath"
+    "connector": "mongodb"
   }
 }
