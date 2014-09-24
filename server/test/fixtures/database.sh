@@ -4,7 +4,7 @@ cd $(dirname $0)
 
 DATABASE="cloudheath"
 
-if [[ $1 == 'snap' ]]; then
+if [ "$1" = 'snap' ]; then
   rm -fr $PWD'/'$DATABASE
 
   mongodump -d $DATABASE -o .
