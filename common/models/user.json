@@ -1,0 +1,30 @@
+{
+  "name": "user",
+  "base": "User",
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "ssc": {
+      "type": "belongsTo",
+      "model": "ssc",
+      "foreignKey": "sscId"
+    },
+    "doctor": {
+      "type": "belongsTo",
+      "model": "doctor",
+      "foreignKey": "doctorId"
+    },
+    "collector": {
+      "type": "belongsTo",
+      "model": "collector",
+      "foreignKey": "collectorId"
+    },
+    "chemist": {
+      "type": "belongsTo",
+      "model": "chemist",
+      "foreignKey": "chemistId"
+    }
+  },
+  "acls": [],
+  "methods": []
+}

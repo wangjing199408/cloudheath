@@ -10,7 +10,7 @@
       "type": "number",
       "required": true
     },
-    "patientId": {
+    "sscId": {
       "type": "string",
       "required": true
     },
@@ -42,24 +42,24 @@
   },
   "validations": [],
   "relations": {
-    "patient": {
+    "ssc": {
       "type": "belongsTo",
-      "model": "patient",
-      "foreignKey": "patientId"
+      "model": "ssc",
+      "foreignKey": "sscId"
     },
     "doctor": {
       "type": "belongsTo",
-      "model": "User",
+      "model": "doctor",
       "foreignKey": "doctorId"
     },
     "collector": {
       "type": "belongsTo",
-      "model": "User",
+      "model": "collector",
       "foreignKey": "collectorId"
     },
     "chemist": {
       "type": "belongsTo",
-      "model": "User",
+      "model": "chemist",
       "foreignKey": "chemistId"
     },
     "project": {

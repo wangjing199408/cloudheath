@@ -6,7 +6,8 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": false
   },
   "AccessToken": {
     "dataSource": "db",
@@ -18,15 +19,11 @@
   },
   "RoleMapping": {
     "dataSource": "db",
-    "public": true
+    "public": false
   },
   "Role": {
     "dataSource": "db",
-    "public": true
-  },
-  "patient": {
-    "dataSource": "db",
-    "public": true
+    "public": false
   },
   "doctor": {
     "dataSource": "db",
@@ -49,6 +46,14 @@
     "public": true
   },
   "parameter": {
+    "dataSource": "db",
+    "public": true
+  },
+  "user": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ssc": {
     "dataSource": "db",
     "public": true
   }

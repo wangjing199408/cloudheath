@@ -1,0 +1,37 @@
+{
+  "name": "ssc",
+  "base": "PersistedModel",
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "cardNo": {
+      "type": "string",
+      "required": true
+    },
+    "balance": {
+      "type": "number",
+      "required": true
+    },
+    "idcard": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "mobilephone": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "tasks": {
+      "type": "hasMany",
+      "model": "task",
+      "foreignKey": "sscId"
+    }
+  },
+  "acls": [],
+  "methods": []
+}
