@@ -1,0 +1,3 @@
+[submodule "bower-cloudheath"]
+	path = bower-cloudheath
+	url = https://github.com/cloudheath/bower-cloudheath.git
