@@ -3,8 +3,8 @@
   "base": "PersistedModel",
   "properties": {
     "serialNumber": {
-      "type": "string",
-      "required": true
+      "type": "number",
+      "required": false
     },
     "cost": {
       "type": "number",
