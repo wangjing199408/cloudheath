@@ -56,5 +56,13 @@
   "ssc": {
     "dataSource": "db",
     "public": true
+  },
+  "institution": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Address": {
+    "dataSource": "db",
+    "public": false
   }
 }
