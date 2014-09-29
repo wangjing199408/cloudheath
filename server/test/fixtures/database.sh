@@ -8,7 +8,7 @@ if [ "$1" = 'snap' ]; then
   rm -fr $PWD'/'$DATABASE
 
   mongodump -d $DATABASE -o .
-  rm -fr $DATABASE/sessions.*
+  rm -fr $DATABASE/AccessToken.*
   rm -fr $DATABASE/system.indexes.*
 else
   mongo $DATABASE --eval 'db.dropDatabase()'
